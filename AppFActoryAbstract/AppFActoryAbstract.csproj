@@ -9,7 +9,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Documentação\" />
       <Folder Include="ViewModels\" />
       <Folder Include="Views\" />
     </ItemGroup>
