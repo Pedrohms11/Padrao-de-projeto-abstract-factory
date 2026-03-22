@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-  
+        <StackPanel Margin="10">
+            <ComboBox x:Name="FormatComboBox" SelectedIndex="0" Margin="5">
+                <ComboBoxItem Content="Word" IsSelected="True"/>
+                <ComboBoxItem Content="PDF"/>
+            </ComboBox>
+            <Button x:Name="SwitchButton" Content="Trocar Formato" Click="SwitchButton_Click" Margin="5"/>
+            <Separator Margin="5"/>
+            <Border x:Name="EditorContainer" BorderBrush="Gray" BorderThickness="1" Margin="5"/>
+            <Button x:Name="ExportButton" Content="Exportar"  Margin="5" Width="100" Click="ExportButton_Click" HorizontalAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>
