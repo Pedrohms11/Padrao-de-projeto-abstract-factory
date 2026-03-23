@@ -54,6 +54,16 @@ Dificuldade de Extensão de Produtos: Embora seja fácil adicionar novas famíri
 Conclusão da Comparação
 Enquanto a abordagem sem o padrão é mais rápida de implementar inicialmente, ela resulta em um sistema rígido e propenso a erros de compatibilidade
 O Abstract Factory, por outro lado, é uma ferramenta de escalabilidade, recomendada quando o sistema lida com diversas famílias de produtos que precisam evoluir de forma independente das classes que os utilizam, aceitando o custo de uma estrutura de classes mais robusta e populada
+# Vantagens
+•	Os produtos obtidos de uma fábrica são compatíveis entre as demais.
+
+•	 Não há vinculo forte entre produtos concretos e o código cliente.
+
+•	Há responsabilidade única, sendo possível extrair o código de criação do produto para um lugar, tornando o de fácil manutenção.
+# Desvantagens
+
+•	O código se torna altamente complexo uma vez que existem inúmeras novas classes junto com o padrão
+
 # Exemplo Real de uso:
 
 Frameworks Cross-Platform (Qt, Flutter)
