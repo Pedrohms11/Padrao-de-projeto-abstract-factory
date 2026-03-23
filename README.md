@@ -69,18 +69,23 @@ Resultado: O código da sua aplicação não precisa se preocupar com qual SO es
 
 
 # Exemplos didaticos:
-Varias variante da mesma familia
+Varias variante da mesma familia: 
+Com o Abstract Method a cada nova variante da mesma famnilia de objetos e representada em uma nova classe de acordo com suas especificidades
 
 <img width="557" height="332" alt="image" src="https://github.com/user-attachments/assets/eb7dc616-61f0-48b3-b453-a703f2b72808" />
 
-Erros comuns de padrão
+Erros comuns de padrão:
+Um padrão incompativél e visto como um erro, mesmo se tratando de um mesmo objeto se a variante for diferente eles não combinam.
 
 <img width="533" height="232" alt="image" src="https://github.com/user-attachments/assets/5212eeb3-ceca-4c14-acac-12b97e658e37" />
 
-Fromato geral da fabrica concreta
+Fromato geral da fabrica concreta:
+Todas as variantes do mesmo objeto podem ser movidas para uma mesma
+hierarquia de classe
 
 <img width="477" height="321" alt="image" src="https://github.com/user-attachments/assets/7ef49799-3408-4e0d-8a2d-301cac1d88ad" />
 
+Cada fábrica concreta corresponde a uma variante de produto específica
 <img width="521" height="235" alt="image" src="https://github.com/user-attachments/assets/4e337958-3716-4d25-b4fd-558496108154" />
 
 Independencia do codigo cliente em relação a fabrica utilizada:
