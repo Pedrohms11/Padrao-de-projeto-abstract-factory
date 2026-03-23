@@ -10,6 +10,9 @@ A primeira coisa que :o padrão Abastract Factory sugere e declarar explicitamen
 
 # EStrutura do padrão:
 
+<img width="495" height="321" alt="image" src="https://github.com/user-attachments/assets/e10e335f-5469-448c-8888-f5fc74f6b9ba" />
+
+
 
 •	Produtos abstratos: Declaram interfaces para um conjunto de produtos distintos, mas relacionados que fazem parte de uma família de produtos.
 
@@ -61,3 +64,34 @@ Ele é aplicado no contexto de cada sistema operacional em sua interfaxe grafica
 
 O framework define uma fábrica abstrata que declara metodos. Para cada sistema operacional, existe uma fabrica concreta.
 Resultado: O código da sua aplicação não precisa se preocupar com qual SO está rodando. Ele simplesmente recebe a fábrica correta e pede a criação de um botão. O padrão garante que todos os componentes criados para uma determinada execução pertençam à mesma família (todos do Windows, por exemplo), evitando a mistura inconsistente de estilos 
+
+<img width="458" height="320" alt="image" src="https://github.com/user-attachments/assets/e1499d1c-0da3-4603-9d3c-e5c55ca82e4d" />
+
+
+# Exemplos didaticos:
+Varias variante da mesma familia
+
+<img width="557" height="332" alt="image" src="https://github.com/user-attachments/assets/eb7dc616-61f0-48b3-b453-a703f2b72808" />
+
+Erros comuns de padrão
+
+<img width="533" height="232" alt="image" src="https://github.com/user-attachments/assets/5212eeb3-ceca-4c14-acac-12b97e658e37" />
+
+Fromato geral da fabrica concreta
+
+<img width="477" height="321" alt="image" src="https://github.com/user-attachments/assets/7ef49799-3408-4e0d-8a2d-301cac1d88ad" />
+
+<img width="521" height="235" alt="image" src="https://github.com/user-attachments/assets/4e337958-3716-4d25-b4fd-558496108154" />
+
+Independencia do codigo cliente em relação a fabrica utilizada:
+
+<img width="426" height="220" alt="image" src="https://github.com/user-attachments/assets/3950438b-3737-417c-92e8-c5b7622b9913" />.
+ 
+
+# Referencias
+GURU DA REFATORAÇÃO. Abstract Factory . Disponível em: https://refactoring.guru/design-patterns/abstract-factory  Acesso em: 23 mar. 2026
+
+GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. Design Patterns: Elements of Reusable Object-Oriented Software. Indianapolis: Addison-Wesley Professional, 1994.
+SANTANA, Rodrigo Gonçalves. Design Patterns com C#: Aprenda padrões de projeto com os games. São Paulo: Casa do Código, 2024. (ISBN 978-85-7254-051-3). Disponível também em versão MOBI (ISBN 978-85-7254-053-7).
+
+
